@@ -1,0 +1,35 @@
+
+body{
+    width: auto;
+    height: 1000px;
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    background: #FCE205;
+}
+#navbar{
+    position: absolute;
+    width: 1405px;
+    height: 60px;
+    left: 57px;
+    top: 20px;
+    
+    border-radius: 20px;
+    background: #FFFDD0;
+}
+
+#cultural{
+    position: absolute;
+    width: 479px;
+    height: 300px;
+    left: 97px;
+    top: 149px;
+
+    font-family: 'Poppins-ExtraBold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 20px;
+}

@@ -1,0 +1,32 @@
+p#reservation{
+    position: absolute;
+    width: 500px;
+    height: 75px;
+    left: 500px;
+    top: 200px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 75px;
+
+    color: #000000;
+}
+
+p#confirmation{
+    position: absolute;
+    width: 662px;
+    height: 38px;
+    left: 417px;
+    top: 300px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #000000;
+}

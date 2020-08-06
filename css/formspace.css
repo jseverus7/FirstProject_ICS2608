@@ -1,0 +1,363 @@
+body{
+    height: 1539px;
+}
+
+#form{
+    position: absolute;
+    width: 739px;
+    height: 1217px;
+    left: 612px;
+    top: 138px;
+    padding: 54px;
+    box-sizing: border-box;
+
+    background: #FCF4A3;
+    box-shadow: 20px 30px 0px rgba(0,0,0,0.25);
+    border-radius: 35px;
+
+    font-family: Muli;
+    font-style: normal;
+
+    display: flex;
+}
+
+#spacereq{  
+    position: absolute;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+#spaceoption{
+    flex-wrap: wrap;
+    align-content: center; 
+
+    position: absolute;
+    width: 630px;
+    height: 37.07px;
+    top: 115px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: 'Muli', sans-serif;   
+    font-style: normal;
+    font-weight:normal;
+    font-size: 18px;
+}
+
+p#title{
+    position: absolute;
+    width: 183px;
+    height: 31px;
+    top: 140px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+input#title{
+    position: absolute;
+    width: 630px;
+    height: 37px;
+    top: 205px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+#kind{
+    position: absolute;
+    width: 183px;
+    height: 31px;
+    top: 230px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+
+#activity{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    top: 295px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: 'Muli', sans-serif;   
+    font-style: normal;
+    font-weight:normal;
+    font-size: 18px;
+}
+
+#number{
+    position: absolute;
+    width: 279px;
+    height: 31px;
+    margin-left: 331px;
+    top: 230px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+#participants{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    left: 385px;
+    top: 295px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+#date{
+    position: absolute;
+    width: 279px;
+    height: 31px;
+    top: 320px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+#datebox{
+    position: absolute;
+    width: 261px;
+    height: 35px;
+    top: 385px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+#time{
+    position: absolute;
+    width: 261px;
+    height: 31px;
+    margin-left: 331px;
+    top: 320px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+#timebox{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    left: 385px;
+    top: 385px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+#ingress{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    top: 405px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+#ingressbox{
+    position: absolute;
+    width: 130.73px;
+    height: 37.07px;
+    top: 470px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#egress{
+    position: absolute;
+    width: 79px;
+    height: 31px;
+    margin-left: 170px;
+    top: 405px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;   
+}
+#egressbox{
+    position: absolute;
+    width: 130.73px;
+    height: 37.07px;
+    left: 225px;
+    top: 470px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#obj{  
+    position: absolute;
+    top: 500px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+#objectives{
+    flex-wrap: wrap;
+    align-content: center; 
+
+    position: absolute;
+    width: 630px;
+    height: 174px;
+    top: 565px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: 'Muli', sans-serif;   
+    font-style: normal;
+    font-weight:normal;
+    font-size: 18px;
+}
+
+p#equip{
+    position: absolute;
+    width: 493px;
+    height: 31px;
+    top: 725px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #000000;
+}
+textarea#equipment{
+    position: absolute;
+    width: 630px;
+    height: 174px;
+    top:790px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+button{
+    position: absolute;
+    width: 152px;
+    height: 51px;
+    left: 310px;
+    top:1040px;
+
+    background: #FEDC56;
+    border-radius: 30px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#back{
+    position: absolute;
+    width: 53px;
+    height: 18px;
+    top: 1070px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    color: #000000;
+}

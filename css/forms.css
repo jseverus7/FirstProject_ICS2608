@@ -1,0 +1,267 @@
+#form{
+    position: absolute;
+    width: 739px;
+    height: 704px;
+    left: 612px;
+    top: 138px;
+    padding: 54px;
+    box-sizing: border-box;
+
+    background: #FCF4A3;
+    box-shadow: 20px 30px 0px rgba(0,0,0,0.25);
+    border-radius: 35px;
+
+    font-family: 'Muli', sans-serif;   
+    font-style: normal;
+    font-weight:normal;
+    font-size: 25px;
+    line-height: 31px;
+
+    display: flex;
+}
+
+div.container{
+    display: flex;
+}
+
+#lastname{
+    position: absolute;
+    width: 126px;
+    height: 31px;
+    
+}
+#firstname{
+    position: absolute;
+    width: 122px;
+    height: 31px;
+    margin-left: 331px;
+}
+
+#lbox{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    top: 115px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+#fbox{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    left: 385px;
+    top: 115px;
+    
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+
+p#college{
+    position: absolute;
+    width: 309px;
+    height: 31px;
+    top: 140px;
+}
+
+select#college_choice{
+    flex-wrap: wrap;
+    align-content: center; 
+
+    position: absolute;
+    width: 631px;
+    height: 37.07px;
+    top: 205px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    font-family: 'Muli', sans-serif;   
+    font-style: normal;
+    font-weight:normal;
+    font-size: 18px;
+}
+
+p#organization{
+    position: absolute;
+    width: 151px;
+    height: 31px;
+    top: 230px;
+}
+p#USTID{
+    position: absolute;
+    width: 126px;
+    height: 31px;
+    margin-left: 331px;
+    top: 230px;
+}
+
+#org{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    top: 295px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+#id{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    left: 385px;
+    top: 295px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+
+p#address{
+    position: absolute;
+    width: 96px;
+    height: 31px;
+    top: 320px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+
+    color: #000000;
+}
+#addr{
+    position: absolute;
+    width: 631px;
+    height: 37.07px;
+    top: 383px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+#mobile{
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    top: 408px;
+}
+#telephone{
+    position: absolute;
+    width: 213px;
+    height: 31px;
+    left: 385px;
+    top: 408px;
+}
+
+#mobno{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    top: 470px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+#telno{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    left: 385px;
+    top: 470px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+
+button{
+    position: absolute;
+    width: 127px;
+    height: 51px;
+    left: 310px;
+    top: 550px;
+
+    background: #FEDC56;
+    border-radius: 30px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+/*
+div.container{
+    display: flex;
+    
+}
+
+#firstname{
+    margin-left: 330px;
+}
+
+#lbox{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    top: 120px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+#fbox{
+    position: absolute;
+    width: 301.98px;
+    height: 37.07px;
+    left: 385px;
+    top: 120px;
+    
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+    transform: rotate(0.37deg);
+}
+
+p#college{
+    position: absolute;
+    width: 309px;
+    height: 31px;
+    top: 150px;
+}
+select#college_choice{
+    position: absolute;
+    width: 638.97px;
+    height: 37.07px;
+    top: 220px;
+
+    background: #F5F5DC;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    border-radius: 13px;
+    transform: rotate(0.37deg);
+}
+
+p#organization{
+    position: absolute;
+    width: 151px;
+    height: 31px;
+    top: 250px;
+}
+*/

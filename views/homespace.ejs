@@ -1,0 +1,74 @@
+
+    <head>
+        <title>Cultural Heritage Spaces</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie-edge">
+        <link rel = "stylesheet" href = "app.css">
+        <link rel = "stylesheet" href = "formspace.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div>
+            <div id = "cultural">
+                <p>CULTURAL</p>
+                <p>HERITAGE</p>
+                <p>SPACES</p>
+            </div>
+            <div id = "form">
+                <form action="/reservation3" method="POST">
+                    <p id = "spacereq">Space Requested</p>
+                    <select name = "spaces" id = "spaceoption">
+                        <option value = "Arch of the Centuries">Arch of the Centuries</option>
+                        <option value = "Plaza Benavides">Plaza Benavides</option>
+                        <option value = "Main Building Lobby">Main Building Lobby</option>
+                        <option value = "MB Mezzanine Lobby">MB Mezzanine Lobby</option>
+                        <option value = "Grand Staircase">Grand Staircase</option>
+                        <option value = "Interior Court (Right Side)">Interior Court (Right Side)</option>
+                        <option value = "Interior Court (Left Side)">Interior Court (Left Side)</option>
+                    </select>
+
+                    <p id = "title">Title of Activity</p>
+                    <input type = "text" name = "title" id = "title">
+                    
+                    <p id = "kind">Kind of Activity</p>
+                    <select name = "activity" id = "activity">
+                        <option value = "Concert">Concert</option>
+                        <option value = "Fashion Show">Fashion Show</option>
+                        <option value = "Dance/Party">Dance/Party</option>
+                        <option value = "Lectures">Lectures</option>
+                        <option value = "Exhibition">Exhibition</option>
+                        <option value = "Socials/Reception">Socials/Reception</option>
+                        <option value = "Cultural Event">Cultural Event</option>
+                        <option value = "Others">Others</option>
+                    </select>
+
+                    <p id = "number">Number of Participants</p>
+                    <input type = "number" name = "participants" id = "participants">
+                    
+                    <p id = "date">Date of Activity</p>
+                    <input type = "date" name = "date" id = "datebox">
+
+                    <p id = "time">Time of Activity</p>
+                    <input type = "time" name = "time" id = "timebox">
+
+                    <p id = "ingress">Ingress</p>
+                    <input type = "time" name = "ingress" id = "ingressbox">
+
+                    <p id = "egress">Egress</p>
+                    <input type = "time" name = "egress" id = "egressbox">
+
+                    <p id = "obj">Objectives</p>
+                    <textarea id="objectives" name="objectives"></textarea>
+
+                    <p id = "equip">Equipment and Furniture to be brought in</p>
+                    <textarea id="equipment" name="equipment"></textarea>
+
+                    <button>Submit</button>
+
+                    <a id = "back">Go back</a>
+                </form>
+            </div>
+        </div>
+    </body>
